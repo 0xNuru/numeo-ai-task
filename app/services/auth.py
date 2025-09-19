@@ -20,7 +20,7 @@ class AuthService:
                 "token_uri": "https://oauth2.googleapis.com/token",
                 "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
                 "client_secret": settings.GOOGLE_CLIENT_SECRET,
-                "redirect_uris": [settings.GOaOGLE_REDIRECT_URI],
+                "redirect_uris": [settings.GOOGLE_REDIRECT_URI],
                 "javascript_origins": ["http://localhost:3000"],
             }
         }
