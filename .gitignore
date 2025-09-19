@@ -208,3 +208,6 @@ __marimo__/
 
 # Ignore Alembic generated migration versions
 alembic/versions/
+
+# Local Python version
+.python-version
